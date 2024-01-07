@@ -85,9 +85,9 @@ class CalculadoraPromedioGUI:
             notas_necesarias = max(0, (4.0 - promedio_ponderado * 0.75) / 0.25)
 
             mensaje = f"Tu promedio ponderado es: {promedio_ponderado:.1f}.\n"
-            mensaje += f"No te has eximido. Necesitas sacar al menos {notas_necesarias:.1f} en el examen para aprobar."
+            mensaje += f"No te has eximido.\nNecesitas sacar al menos {notas_necesarias:.1f} en el examen para aprobar."
         else:
-            mensaje = f"Felicidades, te has eximido. Tu promedio ponderado es: {promedio_ponderado:.1f}."
+            mensaje = f"Felicidades, te has eximido.\nTu promedio ponderado es: {promedio_ponderado:.1f}."
 
         messagebox.showinfo("Resultado", mensaje)
 
