@@ -5,11 +5,12 @@ class CalculadoraPromedioGUI:
     def __init__(self, root):
         self.root = root
         self.root.title("Calculadora de Promedio")
+        self.root.title("Calculadora de Promedio")
 
         self.notas = []
         self.porcentajes = []
-
-        self.label_notas = ttk.Label(root, text="Notas:")
+      
+        self.label_notas = ttk.Label(root, text="Notas (ejemplo: 5.5 ingresar 55):")
         self.label_porcentajes = ttk.Label(root, text="Porcentajes:")
 
         self.entry_notas = ttk.Entry(root)
